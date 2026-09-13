@@ -56,3 +56,5 @@ MODIFY COLUMN Gender ENUM("Male","Female","Others") AFTER Name;
 ALTER TABLE users
 RENAME COLUMN City TO User_Address;
 
+ALTER TABLE Users
+ADD Salary DECIMAL(10,2);
