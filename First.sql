@@ -24,5 +24,20 @@ SHOW COLUMNS FROM novels;
 
 SHOW TABLES;
 
+ALTER TABLE novels ADD COLUMN Reviews VARCHAR(20);
+
+UPDATE novels
+SET `Reviews`='good'
+WHERE `Name`='verity';
+
+UPDATE novels
+SET `Reviews`='Best DR book'
+WHERE `Name`='The Reaper';
+
+UPDATE novels
+SET `Reviews`='LOVED IT'
+WHERE `Name`='The predator';
+
+
 
 
